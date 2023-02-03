@@ -14,10 +14,22 @@ body {
 .nav-bar {
     width: 100%;
     display: inline-block;
-    background-color: #1C539F;
+    background-color: #3b4e76;
     font-family: "Roboto", serif;
-    font-weight: 700 !important;
-    padding-top: 10px;
+    font-weight: 500 !important;
+    padding: 10px;
+}
+
+.nav-content a {
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav-content a:hover {
+    color: #d1b6db;
+    text-decoration: underline;
 }
 
 .nav-content .logo-touch-target {
@@ -40,7 +52,6 @@ body {
 .nav-logo img {
     width: 200px;
 }
-
 .nav-content nav {
     display: block;
     width: 100%;
@@ -50,26 +61,31 @@ body {
 }
 
 .profile {
-    background-color: #1d539f !important;
+    background-color: #e5ecff !important;
     text-align: center;
     height: 320px;
-    margin-bottom: 50px;
+    color: #3b4e76;
+    padding: 50px;
 }
 
 .profile h1 {
-        font-size: 50px;
-        font-weight: 700;
-        color: white;
+    font-size: 50px;
+    font-weight: 700;
 }
 
 .profile img {
-        border-radius: 50%;
-        max-width: 100%;
-        max-height: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;        
-        padding: 20px;
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;        
+    padding: 20px;
+}
+
+.profile p {
+    width: 750px;
+    color: #7393B3;
 }
 
 .profile .profile-picture {
@@ -80,7 +96,6 @@ body {
 .banner {
     padding: 20px 0px 50px 0px;
     height: 150px;
-    background-color: #1d539f;
 }
 
 .banner .logo {
@@ -94,4 +109,8 @@ body {
     color: white;
     font-size: 50px;
     font-weight: 700;
+}
+
+.about {
+    padding: 20px;
 }
