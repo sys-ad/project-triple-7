@@ -56,10 +56,21 @@ body {
     margin-bottom: 50px;
 }
 
+.profile-picture a {
+    text-decoration: none; /* removes the underline from link-clicks */
+}
+
 .profile h1 {
-        font-size: 50px;
+        font-size: 30px;
         font-weight: 700;
         color: white;
+}
+
+.space-container {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
 }
 
 .profile img {
@@ -70,6 +81,11 @@ body {
         margin-right: auto;
         display: block;        
         padding: 20px;
+        transition: transform 0.2s ease-in-out;
+}
+
+.profile img:hover {
+    transform: scale(1.1);
 }
 
 .profile .profile-picture {
@@ -94,4 +110,99 @@ body {
     color: white;
     font-size: 50px;
     font-weight: 700;
+}
+
+/* Start of Custom CSS Styles */
+/* 1 em = 16px */
+
+/* Team Projects CSS */
+
+/* Div - Section_Header */
+.section-header h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+}
+
+
+/* Div Projects */
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    text-align: inner;
+    align-items: baseline;
+}
+
+.projects {
+    width: 70%;
+    margin: auto;
+}
+
+.projects h2 {
+    margin: 0;
+}
+
+
+.project-header h1 {
+    margin-bottom: 0;
+}
+
+.project-name {
+    font-size: 28px;
+}
+
+.project-date {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.project-languages {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+ul {
+    margin: 0;
+}
+
+.projects li {
+    font-size: 20px;
+}
+
+.site-link {
+    list-style: none;
+}
+
+
+
+/* CSS Styles for the Individual Page Nav-Bars */
+.section-nav-bar ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.section-nav-bar a {
+    text-decoration: none; /* removes the underline */
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.section-nav-bar a:hover {
+    background-color: #e2a120;
+    color: white;
+    border-radius: 5%;
+    padding: 2px;
+    border: 2px;
+}
+
+.section-nav-bar .focus-link { 
+    color: #2672E3;
+    font-weight: 800;
+}
+
+.company-span {
+    text-decoration: underline;
 }

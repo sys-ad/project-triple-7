@@ -1,0 +1,105 @@
+{
+    "users": [
+      {
+        "firstName": "",
+        "lastName": "",
+        "imagePath": "/static/images/",
+        "workExperiences": [
+          {
+            "company": "",
+            "position": "",
+            "description": ""
+          },
+          {
+            "company": "",
+            "position": "",
+            "description": ""
+          }
+        ],
+        "hobbies": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+       
+      },
+      {
+        "firstName": "",
+        "lastName": "",
+        "imagePath": "/static/images/",
+        "workExperiences": [
+          {
+            "company": "",
+            "position": "",
+            "description": ""
+          },
+          {
+            "company": "",
+            "position": "",
+            "description": ""
+          }
+        ],
+        "hobbies": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+       
+      },
+      {
+        "firstName": "",
+        "lastName": "",
+        "imagePath": "/static/images/",
+        "workExperiences": [
+          {
+            "company": "",
+            "position": "",
+            "description": ""
+          },
+          {
+            "company": "",
+            "position": "",
+            "description": ""
+          }
+        ],
+        "hobbies": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+       
+      },
+      {
+        "firstName": "",
+        "lastName": "",
+        "imagePath": "/static/images/",
+        "workExperiences": [
+          {
+            "company": "",
+            "position": "",
+            "description": ""
+          },
+          {
+            "company": "",
+            "position": "",
+            "description": ""
+          }
+        ],
+        "hobbies": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+       
+      }
+    ]
+  }
+  
