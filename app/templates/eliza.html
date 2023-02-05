@@ -1,12 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eliza</title>
-</head>
-<body>
-    
-</body>
-</html>
+{% extends "profile_template.html" %}
+
+{% block title %}Eliza's Page{% endblock %}
+
+{% block main %}
+<h1>This is Eliza's Page</h1>
+<h2>this is some text</h2>
+{% endblock %}
+
+{% block javascript %}
+<script>
+      alert("This is a test alert!")
+</script>
+{% endblock %}
