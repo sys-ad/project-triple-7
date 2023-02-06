@@ -43,6 +43,10 @@
         <center>
             <h1 class="section-header">Work Experiences</h1>
             {% block experiences %}{% endblock %}
+            {% for work in experiences %}
+                {{ work.company }}: {{ work.position }}
+                {{ work.description }}
+            {% endfor %}
         </center>
         <center>
             <h1 class="section-header">Education</h1>
@@ -51,6 +55,11 @@
         <center>
             <h1 class="section-header">Hobbies</h1>
             {% block hobbbies %}{% endblock %}
+            <ul style="padding-left: 100px; padding-right: 100px;">
+            {% for hobby in hobbies %}
+                <li>{{ hobby }}</li>
+            {% endfor %}
+            </ul>
         </center>
     </main>
 
