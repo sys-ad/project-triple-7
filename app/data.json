@@ -1,106 +1,106 @@
 {
     "users": [
       {
-        "firstName": "",
-        "lastName": "",
-        "imagePath": "/static/images/",
-        "Education": "",
+        "firstName": "mauricio",
+        "lastName": "mo",
+        "imagePath": "/static/images/mauricio.jpg",
+        "Education": "asu",
         "workExperiences": [
           {
-            "company": "",
-            "position": "",
-            "description": ""
+            "company": "dd",
+            "position": "dd",
+            "description": "dd"
           },
           {
-            "company": "",
-            "position": "",
-            "description": ""
+            "company": "dd",
+            "position": "dd",
+            "description": "dd"
           }
         ],
         "hobbies": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "dd",
+          "dd",
+          "dd",
+          "dd",
+          "dd"
         ]
        
       },
       {
-        "firstName": "",
-        "lastName": "",
-        "imagePath": "/static/images/",
-        "Education": "",
+        "firstName": "helen",
+        "lastName": "dd",
+        "imagePath": "/static/images/helen.jpg",
+        "Education": "d",
         "workExperiences": [
           {
-            "company": "",
-            "position": "",
-            "description": ""
+            "company": "dd",
+            "position": "dd",
+            "description": "dd"
           },
           {
-            "company": "",
-            "position": "",
-            "description": ""
+            "company": "dd",
+            "position": "dd",
+            "description": "dd"
           }
         ],
         "hobbies": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "dd",
+          "dd",
+          "dd",
+          "dd",
+          "dd"
         ]
        
       },
       {
-        "firstName": "",
-        "lastName": "",
-        "imagePath": "/static/images/",
-        "Education": "",
+        "firstName": "eliza",
+        "lastName": "dd",
+        "imagePath": "/static/images/eliza.jpg",
+        "Education": "dd",
         "workExperiences": [
           {
-            "company": "",
-            "position": "",
-            "description": ""
+            "company": "dd",
+            "position": "dd",
+            "description": "dd"
           },
           {
-            "company": "",
-            "position": "",
-            "description": ""
+            "company": "dd",
+            "position": "dd",
+            "description": "dd"
           }
         ],
         "hobbies": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "dd",
+          "dd",
+          "dd",
+          "dd",
+          "dd"
         ]
        
       },
       {
-        "firstName": "",
-        "lastName": "",
-        "imagePath": "/static/images/",
-        "Education": "",
+        "firstName": "rachel",
+        "lastName": "dd",
+        "imagePath": "/static/images/rachel.jpg",
+        "Education": "ff",
         "workExperiences": [
           {
-            "company": "",
-            "position": "",
-            "description": ""
+            "company": "ff",
+            "position": "ff",
+            "description": "ff"
           },
           {
-            "company": "",
-            "position": "",
-            "description": ""
+            "company": "ff",
+            "position": "ff",
+            "description": "ff"
           }
         ],
         "hobbies": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "ff",
+          "ff",
+          "ff",
+          "ff",
+          "ff"
         ]
        
       }
