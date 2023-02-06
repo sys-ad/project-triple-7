@@ -4,12 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link lang='sass' rel="stylesheet" href="./static/styles/main.css">
+    <link rel='icon' href='./static/img/favicon.ico' type='image/x-icon' />
     <title>{% block title %}{% endblock %}</title>
 </head>
 <body>
     <!--This is where the main block in your_name.html is used-->
     <main>
-        {% block main %}{% endblock %}
+        <header class="nav-bar">
+            <div class="nav-content">
+                <a href="/">
+                    <div class="nav-logo">
+                        <img src="./static/img/logo.svg" />
+                    </div>
+                </a>
+            </div>
+        </header>
+        
+        
+        <div class="profile">
+            <div class="space-container">
+                <div id="profile-picture" class="profile-picture">
+                    <a href=""><img src="./static/img/{% block image %}{% endblock %}">
+                    <h1>{% block name %}{% endblock %}</h1></a>
+                </div>
+            </div>
+        </div>
+        
+        <center>
+            <h1 class="section-header">About Me</h1>
+            <p>{% block about %}{% endblock %}</p>
+        </center>
+        <center>
+            <h1 class="section-header">Work Experiences</h1>
+            {% block experiences %}{% endblock %}
+        </center>
+        <center>
+            <h1 class="section-header">Education</h1>
+            {% block education %}{% endblock %}
+        </center>
+        <center>
+            <h1 class="section-header">Hobbies</h1>
+            {% block hobbbies %}{% endblock %}
+        </center>
     </main>
 
     <!--Template for <script> block in your_name.html-->

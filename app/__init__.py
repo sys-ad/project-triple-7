@@ -35,3 +35,7 @@ def helen():
 @app.route('/mauricio')
 def mauricio():
     return render_template('mauricio.html', title="Mauricio", url=os.getenv("URL"))
+
+if __name__ == "__main__":
+	app.debug = True
+	app.run()
