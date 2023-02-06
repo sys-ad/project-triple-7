@@ -1,12 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rachel</title>
-</head>
-<body>
-    
-</body>
-</html>
+{% extends "profile_template.html" %}
+
+{% block title %}Rachel{% endblock %}
+{% block image %}rachel.jpg{% endblock %}
+{% block name %}Rachel{% endblock %}
+
+
+{% block about %}
+    Hi I'm Rachel and I'm an aspiring software engineer!
+    I enjoy building web applications hope to build more projects with other people.
+{% endblock %}
+
+{% block education %}
+    UC Berkeley 2022-present
+{% endblock %}

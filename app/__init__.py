@@ -46,3 +46,7 @@ def line_chart():
   labels=json.dumps( ["12-31-18", "01-01-19", "01-02-19"] )
   return render_template("profile_template.html", data = data,
                         labels=labels)
+
+if __name__ == "__main__":
+	app.debug = True
+	app.run()
