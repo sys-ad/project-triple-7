@@ -14,22 +14,10 @@ body {
 .nav-bar {
     width: 100%;
     display: inline-block;
-    background-color: #3b4e76;
+    background-color: #1C539F;
     font-family: "Roboto", serif;
-    font-weight: 500 !important;
-    padding: 10px;
-}
-
-.nav-content a {
-    font-size: 25px;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-}
-
-.nav-content a:hover {
-    color: #d1b6db;
-    text-decoration: underline;
+    font-weight: 700 !important;
+    padding-top: 10px;
 }
 
 .nav-content .logo-touch-target {
@@ -52,6 +40,7 @@ body {
 .nav-logo img {
     width: 200px;
 }
+
 .nav-content nav {
     display: block;
     width: 100%;
@@ -61,11 +50,10 @@ body {
 }
 
 .profile {
-    background-color: #e5ecff !important;
+    background-color: #1d539f !important;
     text-align: center;
     height: 320px;
-    color: #3b4e76;
-    padding: 50px;
+    margin-bottom: 50px;
 }
 
 .profile-picture a {
@@ -73,14 +61,9 @@ body {
 }
 
 .profile h1 {
-<<<<<<< HEAD
         font-size: 30px;
         font-weight: 700;
         color: white;
-=======
-    font-size: 50px;
-    font-weight: 700;
->>>>>>> 39ce3e5b6b7259218ca7212d955f008c89f50005
 }
 
 .space-container {
@@ -98,19 +81,11 @@ body {
     margin-right: auto;
     display: block;        
     padding: 20px;
-<<<<<<< HEAD
     transition: transform 0.2s ease-in-out;
 }
 
 .profile img:hover {
     transform: scale(1.1);
-=======
-}
-
-.profile p {
-    width: 750px;
-    color: #7393B3;
->>>>>>> 39ce3e5b6b7259218ca7212d955f008c89f50005
 }
 
 .profile .profile-picture {
@@ -121,6 +96,7 @@ body {
 .banner {
     padding: 20px 0px 50px 0px;
     height: 150px;
+    background-color: #1d539f;
 }
 
 .banner .logo {
@@ -136,7 +112,6 @@ body {
     font-weight: 700;
 }
 
-<<<<<<< HEAD
 /* Start of Custom CSS Styles */
 /* 1 em = 16px */
 
@@ -230,8 +205,4 @@ ul {
 
 .company-span {
     text-decoration: underline;
-=======
-.about {
-    padding: 20px;
->>>>>>> 39ce3e5b6b7259218ca7212d955f008c89f50005
 }
