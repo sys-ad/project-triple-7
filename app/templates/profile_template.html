@@ -41,23 +41,31 @@
             <p>{% block about %}{% endblock %}</p>
         </center>
         <center>
-            <h1 class="section-header">Work Experiences</h1>
+            <h1 class="section-header">Work Experience</h1>
             {% block experiences %}{% endblock %}
             {% for work in experiences %}
-                {{ work.company }}: {{ work.position }}
-                {{ work.description }}
+                <table>
+                    <tr>
+                        <th>{{ work.position }} - {{ work.company }}</th>
+                    </tr>
+                    <tr>
+                        <td><li>{{ work.description }}</li></td>
+                    </tr>
+                </table>
             {% endfor %}
         </center>
         <center>
             <h1 class="section-header">Education</h1>
-            {% block education %}{% endblock %}
+            <p>{{ education }}</p>
+            {% block education %}
+            {% endblock %}
         </center>
         <center>
             <h1 class="section-header">Hobbies</h1>
             {% block hobbbies %}{% endblock %}
             <ul style="padding-left: 100px; padding-right: 100px;">
             {% for hobby in hobbies %}
-                <li>{{ hobby }}</li>
+                <p>{{ hobby }}</p>
             {% endfor %}
             </ul>
         </center>
