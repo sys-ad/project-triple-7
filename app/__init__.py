@@ -15,7 +15,7 @@ def index():
 
 def user_route(username):
     def user_func():
-        return render_template(f'{username}.html', title=username, experiences=data[username]["workExperiences"], hobbies=data[username]["hobbies"], url=os.getenv("URL"))
+        return render_template(f'{username}.html', title=username, experiences=data[username]["workExperiences"], hobbies=data[username]["hobbies"], education=data[username]["Education"], url=os.getenv("URL"))
     return user_func
 
 with open("app/data.json") as file:
