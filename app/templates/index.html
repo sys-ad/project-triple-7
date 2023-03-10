@@ -1,64 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
 
-<head>
-    <!-- Required meta tags -->
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta property="og:title" content="Personal Portfolio">
-    <meta property="og:description" content="My Personal Portfolio">
-    <meta property="og:url" content="{{ url }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MLH Fellowship '23'</title>
+    <meta name="description" content="A portfolio">
+    <link rel="shortcut icon" href="./static/img/favicon.ico">
+    <link rel="canonical" href="https://picocss.com/examples/company/">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <!-- Pico.css -->
+    <link rel="stylesheet" href="./static/styles/pico.min.css">
 
-    <link lang='sass' rel="stylesheet" href="./static/styles/main.css">
-    <link rel='icon' href='./static/img/favicon.ico' type='image/x-icon' />
-    <title>{{ title }}</title>
-</head>
+    <!-- Custom styles for this example -->
+    <link rel="stylesheet" href="./static/styles/main.css">
+  </head>
 
-<body>
-    <header class="nav-bar">
-        <div class="nav-content">
-            <a href="/">
-                <div class="nav-logo">
-                    <img src="./static/img/logo.svg" />
-                </div>
-            </a>
-        </div>
-    </header>
+  <body>
 
+    <!-- Hero -->
+    <div class="hero" data-theme="dark">
+      <nav class="container-fluid">
+        <ul>
+          <li><a href="/" class="contrast" <strong>MLH Fellowship 2023</strong></a></li>
+        </ul>
+        <ul>
+          <li>
+            
+          </li>
+          <li>
+            <details role="list" dir="rtl">
+              <summary aria-haspopup="listbox" role="link" class="contrast">Résumé</summary>
+              <ul role="listbox">
+                <li><a href="/rachel">Rachel</a></li>
+                <li><a href="/mauricio">Mauricio</a></li>
+                <li><a href="/helen">Helen</a></li>
+                <li><a href="/eliza">Eliza</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </nav>
+      <header class="container">
+        <hgroup>
+          <h1>MLH
+              Fellowship
+          </h1>
+          <h2>Site Reliability Engineering</h2>
+        </hgroup>
+      </header>
+    </div><!-- ./ Hero -->
 
-    <div class="profile">
-        <div class="space-container">
-            <div id="profile-picture" class="profile-picture">
-                <a href="/rachel"><img src="./static/img/rachel.jpg">
-                <h1>Rachel</h1></a>
-            </div>
-    
-            <div id="profile-picture" class="profile-picture">
-                <a href="/eliza"><img src="./static/img/eliza.jpg">
-                    <h1>Eliza</h1></a>
-            </div>
-    
-            <div id="profile-picture" class="profile-picture">
-                <a href="/helen"><img src="./static/img/helen.jpg">
-                    <h1>Helen</h1></a>
-            </div>
-    
-            <div id="profile-picture" class="profile-picture">
-                <a href="/mauricio"><img src="./static/img/mauricio.jpg">
-                <h1>Mauricio</h1></a>
-            </div>
-        </div>
-    </div>
+    <!-- Main -->
+    <main class="container">
+      <div class="grid">
 
-    <div class="section-header">
-        <h1>Team Projects</h1>
-    </div>
-    
+        <section>
+          <hgroup>
+            <h2>About us</h2>
+            <h3>Site Reliability Engineering in the MLH Fellowship</h3>
+          </hgroup>
+          <p>We are a team of Site Reliability Engineers Fellows (SREs) participating in the MLH Fellowship 2023. Our mission is to improve the reliability, scalability, and efficiency of open-source projects and technologies. As SREs, we are responsible for ensuring that the systems we work on are highly available and perform well under heavy loads. </p>
+          <figure>
+            <img src="./static/img/fellows.jpg" alt="MLH Photo" width="600" height="800">
+            <figcaption>A group of our talented team members</figcaption>
+          </figure>
+          <h3>What we do</h3>
+          <p>In the MLH Fellowship, we work with open-source projects and communities to identify and resolve technical challenges. Our work involves monitoring systems, performing root cause analysis of incidents, and implementing solutions to prevent future outages. We also contribute to the development of new features and improvements to the projects we work on, with the goal of making them more reliable, scalable, and user-friendly. </p>
+          <h3>Our Team</h3>
+          <p>Our team consists of professionals and engineers from diverse backgrounds, each bringing unique skills and perspectives to the fellowship. Our collaboration and teamwork ensure that we are able to effectively tackle even the toughest challenges and deliver high-quality results.</p>
+        </section>
 
-</body>
+        <aside>
+          <a href="/helen" aria-label="Example"><img src="./static/img/helen.jpg" alt="Helen"></a>
+          <p>
+            <a href="/helen">Helen</a><br>
+            <small></small>
+          </p>
+          <a href="/rachel" aria-label="Example"><img src="./static/img/rachel.jpg" alt="Rachek"></a>
+          <p>
+            <a href="/rachel">Helen</a><br>
+            <small></small>
+          </p>
+          <a href="/eliza" aria-label="Example"><img src="./static/img/eliza.jpg" alt="Eliza"></a>
+          <p>
+            <a href="/eliza"><a/>Eliza</a><br>
+            <small></small>
+          </p>
+          <a href="/mauricio" aria-label="Example"><img src="./static/img/mauricio.jpg" alt="Mauricio"></a>
+          <p>
+            <a href="/mauricio">Mauricio</a><br>
+            <small></small>
+          </p>
+          
+        </aside>
+
+      </div>
+    </main><!-- ./ Main -->
+
+  </body>
+
 </html>
