@@ -1,9 +1,9 @@
 #!/bin/bash
 
+cd ~/portfolio_template_with_picocss/project-triple-7
 
-cd ~/project-triple-7/
-git fetch && git reset origin/main -hard
-source python3-virtualenv/bin/activate
-pip install -r requirements.txt
+git fetch && git reset origin/main --hard
 
-systemctl daemon-reload myportfolio
+docker compose down
+
+docker compose up -d --build
