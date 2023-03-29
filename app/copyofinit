@@ -8,8 +8,7 @@ from dotenv import load_dotenv
 from peewee import *
 
 load_dotenv()
-app = Flask(__name__)
-
+app = Flask(__name__, template_folder='templates')
 
 if os.getenv("TESTING") == "true":
     print("Running in test mode")
