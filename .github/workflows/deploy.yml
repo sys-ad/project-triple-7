@@ -28,8 +28,6 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           SSH_IP: ${{ secrets.SSH_IP }}
           
-      - name: Set execute permissions on script
-        run: chmod +x ~/project-triple-7/redeploy-site.sh
       
       - name: Deploy Site
         run: ssh my-vps '~/project-triple-7/redeploy-site.sh'
