@@ -28,6 +28,8 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           SSH_IP: ${{ secrets.SSH_IP }}
           
+      - name: List Directory
+        run: ls -l
       
       - name: Deploy Site
         run: ssh my-vps '~/project-triple-7/redeploy-site.sh'
