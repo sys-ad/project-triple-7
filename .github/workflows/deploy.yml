@@ -30,7 +30,7 @@ jobs:
           
       
       - name: Deploy Site
-        run: ssh my-vps '~/project-triple-7/redeploy-site.sh'
+        run: ssh my-vps '~/redeploy-site.sh'
         env:
           SSH_USER: ${{ secrets.SSH_USER }}
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
